@@ -1,0 +1,30 @@
+DEPENDENCIES
+  apt (~> 2.6.0)
+  hosts_file (~> 0.2.0)
+  java (~> 1.29.0)
+  locale (~> 1.0.2)
+  mongodb-10gen (= 0.2.0)
+  packages (~> 0.4.0)
+  postgresql
+    git: https://github.com/phlipper/chef-postgresql
+    revision: 82117dea75df69759b78664b3d255a71a55d206d
+    tag: v0.15.0
+  rvm
+    git: https://github.com/fnichol/chef-rvm
+    revision: 8a877e9b497f8fb06dfe6f5975561331b3924243
+
+GRAPH
+  apt (2.6.0)
+  chef_gem (0.1.0)
+  hosts_file (0.2.0)
+  java (1.29.0)
+  locale (1.0.2)
+  mongodb-10gen (0.2.0)
+    apt (>= 2.5.0)
+    mongodb-10gen (>= 0.0.0)
+  packages (0.4.0)
+  postgresql (0.15.0)
+    apt (>= 1.9.0)
+  rvm (0.10.1)
+    chef_gem (>= 0.0.0)
+    java (>= 0.0.0)

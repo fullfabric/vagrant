@@ -1,0 +1,10 @@
+source 'https://supermarket.getchef.com'
+
+cookbook 'apt', '~> 2.6.0'
+cookbook 'rvm', git: 'https://github.com/fnichol/chef-rvm', rev: '8a877e9b497f8fb06dfe6f5975561331b3924243'
+cookbook 'java', '~> 1.29.0'
+cookbook 'mongodb-10gen', '= 0.2.0'
+cookbook 'locale', '~> 1.0.2'
+cookbook 'packages', '~> 0.4.0'
+cookbook 'hosts_file', '~> 0.2.0'
+cookbook 'postgresql', git: 'https://github.com/phlipper/chef-postgresql', tag: 'v0.15.0'
