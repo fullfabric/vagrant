@@ -21,8 +21,8 @@ default_attributes(
     "user_installs" => [
       { "user" =>           "vagrant",
         "install_rubies" => true,
-        "default_ruby" =>   "2.1.4",
-        "rubies" =>         [],
+        "default_ruby" =>   "2.0.0-p481",
+        "rubies" =>         ["2.1.4"],
         "global_gems" =>    [{"name" => "bundler"}] }
     ]
   }
